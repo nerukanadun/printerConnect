@@ -11,6 +11,7 @@
 		}	
 		
 		.table-striped tbody > tr:nth-child(odd) > td,
+			
 		.table-striped tbody > tr:nth-child(odd) > th {
 			background-color: #f9f9f9;
 		}
