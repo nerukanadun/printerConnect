@@ -3,6 +3,7 @@
 	require 'conn.php';
 ?>
 <html lang="en">
+	
 	<head>
 		<style>	
 		.table {
@@ -33,6 +34,7 @@
 	</style>
 	</head>
 <body>
+	
 	<h2>Sourcecodester</h2>
 	<br /> <br /> <br /> <br />
 	<b style="color:blue;">Date Prepared:</b>
@@ -55,7 +57,7 @@
 				require 'conn.php';
 				
 				$query = $conn->query("SELECT * FROM `product`");
-				while($fetch = $query->fetch_array()){
+				
 					
 			?>
 			
