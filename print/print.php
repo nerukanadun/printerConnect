@@ -57,7 +57,7 @@
 				require 'conn.php';
 				
 				$query = $conn->query("SELECT * FROM `product`");
-				
+				while($fetch = $query->fetch_array()){
 					
 			?>
 			
